@@ -1,0 +1,16 @@
+@import '../App.scss';
+
+.empty {
+  @include colCenCen;
+}
+
+.empty-img {
+  height: 225px;
+}
+
+.empty-text {
+  font-size: 35px;
+  font-family: $title-font;
+  color: $primary-color;
+  text-align: center;
+}

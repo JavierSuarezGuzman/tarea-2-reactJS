@@ -1,0 +1,11 @@
+@import '../App.scss';
+
+.loader {
+  @include colCenCen;
+}
+
+.loader-text {
+  font-size: 21px;
+  font-family: $title-font;
+  color: $primary-color;
+}

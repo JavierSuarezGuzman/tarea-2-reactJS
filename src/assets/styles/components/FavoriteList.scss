@@ -1,0 +1,6 @@
+@import '../App.scss';
+
+.favoriteList {
+  @include flexCenCen;
+  flex-wrap: wrap;
+}

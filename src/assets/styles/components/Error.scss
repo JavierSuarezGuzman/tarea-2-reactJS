@@ -1,0 +1,15 @@
+@import '../App.scss';
+
+.error {
+  @include flexCenCen;
+}
+
+.error-img {
+  height: 300px;
+}
+
+.error-text {
+  font-size: 35px;
+  font-family: $title-font;
+  color: $primary-color;
+}
