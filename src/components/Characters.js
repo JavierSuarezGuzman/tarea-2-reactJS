@@ -1,7 +1,7 @@
 import React from 'react';
 import '.././App.css';
 
-const Characters = ({ characters = [] }) => { //characters debe ser un child?
+const Characters = ({ characters = [] }) => { //characters debe ser un child? O es este un Context API (store)?
     return (
         <div className='row'>
             {characters.map((item, index) => (
